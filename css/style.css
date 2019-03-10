@@ -1,0 +1,274 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:0;
+	padding:0;
+	background-image: linear-gradient(#ada996, #f2f2f2, #dbdbdb, #eaeaea);
+    font-family: "Times New Roman", Times, serif;
+    font-size:16px;
+}
+
+h1, h3{
+	margin:5px;
+	background-image: linear-gradient(#ada996, #f2f2f2, #dbdbdb, #eaeaea); 
+}
+
+h1 { font-size:32px;}
+h3 { font-size:22px;}
+
+#wrapper{
+	
+	background-color: #f2f2f2;
+	width: 1200px;
+	height:auto;
+	margin:20px auto 20px;
+	padding:10px;
+}
+#header {
+    margin-bottom: 5px;
+    height: 60px;
+	background-image: linear-gradient(#00000, #434343); 
+}
+#container{
+	background-color: #333333;
+	height: 50px;
+	width: auto;
+	margin-bottom: 5px;
+	display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+
+.nav{
+    background-color: transparent;
+    text-decoration: none;
+    text-align: center;
+    color:#696969;  
+	margin: 12px 15px;    
+    width: 100px;       
+}
+
+.nav:hover{
+    border-style: solid;
+    border-color: rgb(192,192,192);
+    color:#696969;
+}
+
+
+a:link{
+    color:#696969;
+    text-decoration:none;
+	font-weight:1000; 
+}
+
+a:visited{
+    color:#696969;
+    text-decoration: none;
+}
+a:hover{
+    color:black;
+    text-decoration:none;
+}
+
+.nav a {
+    color:green;
+	font-weight: solid; 
+    text-decoration:none;
+}
+
+.nav a:link{
+    color:#838383;
+    text-decoration:none;
+	font-weight:1000; 
+}
+
+.nav a:visited{
+    color:#838383;
+    text-decoration: none;
+}
+.nav a:hover{
+    color:#696969;
+    text-decoration:none;
+}
+
+#aside{
+	height: auto;
+	width:240px;
+	float:right;
+	margin-bottom:5px;
+}
+
+#aside img{
+	margin: 20px auto;
+	display: block;
+}
+
+#article{
+	width:935px;
+	height: auto;
+	float: left;
+	padding:5px;
+	margin-bottom:5px;
+}
+#section{
+	width:935px;
+	height: auto;
+	padding:5px;
+	align-content: center;
+	float: left;
+	margin-bottom:5px;
+}
+
+#article img{
+	float:right;
+	margin: 10px;
+	padding:5px;
+	border:solid #333333;
+}
+
+#section img{
+	float:right;
+	margin: 10px;
+	padding:5px;
+	border:solid #333333;
+}
+
+#footer{ 
+	background:#333333;
+	height: 50px;
+	clear:both;
+	text-align:center;
+	color:#838383;
+	background-image: linear-gradient(#00000, #434343); 
+}
+
+#media {
+	float:right;
+	margin:3px 10px 0 0;
+}
+
+.fa {
+  padding: 5px;
+  font-size: 30px;
+ 
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+input[type=text], select, textarea {
+  background-color: #f1f0ee;
+  width: 100%; 
+  padding: 10px;  
+  border-style: solid; 
+  border-color: #333333;
+  border-radius: 5px; 
+  box-sizing: border-box; 
+  margin-top: 15px; 
+  margin-bottom: 15px;    
+}
+
+input[type=submit] {
+  background-color: #333333;
+  color: #f1f0ee;
+  padding: 16px;
+  border: none;
+  border-radius: 5px;
+  
+}
+
+input[type=submit]:hover {
+  background-color: #696969;
+}
+
+.contact {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+#container ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+#container ul li {
+	float:left;
+	position:relative;
+}
+
+#container ul li a {
+	padding:15px 15px;
+	height:20px;
+	display:block;
+	text-decoration:none;
+}
+
+#container ul li a:link,
+#container ul li a:visited {
+	color:#FFFFFF;
+}
+#container ul li a:hover {
+	background:#696969;
+}
+#container ul li a:active {
+	color:#000000;
+	background:#777777;
+}
+
+#container ul li ul {
+	background:#444444;
+	position:absolute;
+	top:100%;
+	left:0;
+	width:180px;
+	display:none; 
+}
+
+#container ul li:hover > ul {
+	display:block; 
+}
+
+
+#container ul li ul li {
+	float:none;
+}
+
+#container ul li ul li ul {
+	top:0;
+	left:100%;
+}
+
+table{
+    border-width: thin;
+    border-color: #696969;
+    border-style: dashed;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    margin-right:auto;
+    margin-left:auto;
+    
+}
+
+td{ 
+    padding: 10px;
+    border-width: thin;
+    border-color: #696969;
+    border-style: dashed;
+    
+}
+
+th{
+    background-color: #ada996;
+    padding: 10px;
+    text-align:center;
+    border-width: thin;
+    border-color: #696969;
+    border-style: dashed;
+    font-weight: bold;
+}
